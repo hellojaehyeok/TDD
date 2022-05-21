@@ -1,0 +1,14 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "study jest ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}

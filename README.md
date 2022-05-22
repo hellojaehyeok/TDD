@@ -106,8 +106,6 @@ test('이름은 song - promise', () => {
 
 ### async
 
-async, await은
-
 ```js
 test('이름은 song - async', async () => {
   const name = await fn.getNamePromise();

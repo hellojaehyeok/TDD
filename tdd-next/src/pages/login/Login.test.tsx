@@ -20,4 +20,8 @@ test('로그인 페이지', () => {
 
   fireEvent.click(loginButton);
   expect(onSubmit).toHaveBeenCalledTimes(1);
+  expect(onSubmit).toHaveBeenCalledWith({
+    username: 'song',
+    password: 'pwd',
+  });
 });

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const Login = ({ onSubmit }: { onSubmit: () => void }) => {
+export const Login = ({ onSubmit }: { onSubmit: ({ username, password }: Record<string, string>) => void }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -11,7 +11,7 @@ export const Login = ({ onSubmit }: { onSubmit: () => void }) => {
       <form
         onSubmit={e => {
           e.preventDefault();
-          onSubmit && onSubmit();
+          onSubmit && onSubmit({ username, password });
         }}
       >
         <label htmlFor="username">

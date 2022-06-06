@@ -2,7 +2,7 @@
 
 jest로 TDD 연습하기
 
-facebook에서 만든 테스트도구인 jest
+tdd-next 폴더에 추가 설명있습니다.
 
 ## basic
 
